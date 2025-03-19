@@ -1,0 +1,28 @@
+[0.015s] Invoking command in '/home/petomartin/homework/ros2_ws/build/homework_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/petomartin/ros2_ws/install/my_robot_controller:/home/petomartin/ros2_ws/install/gazesim:/home/petomartin/install/my_robot_controller:/home/petomartin/install/ament_cmake_core:/opt/ros/humble /usr/bin/cmake --build /home/petomartin/homework/ros2_ws/build/homework_package -- -j8 -l8
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target division_node_B[0m
+[0.059s] [ 50%] Built target division_node
+[0.062s] [ 75%] [32mBuilding CXX object CMakeFiles/division_node_B.dir/src/division_node_B.cpp.o[0m
+[7.100s] [100%] [32m[1mLinking CXX executable division_node_B[0m
+[7.474s] [100%] Built target division_node_B
+[7.483s] Invoked command in '/home/petomartin/homework/ros2_ws/build/homework_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/petomartin/ros2_ws/install/my_robot_controller:/home/petomartin/ros2_ws/install/gazesim:/home/petomartin/install/my_robot_controller:/home/petomartin/install/ament_cmake_core:/opt/ros/humble /usr/bin/cmake --build /home/petomartin/homework/ros2_ws/build/homework_package -- -j8 -l8
+[7.513s] Invoking command in '/home/petomartin/homework/ros2_ws/build/homework_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/petomartin/ros2_ws/install/my_robot_controller:/home/petomartin/ros2_ws/install/gazesim:/home/petomartin/install/my_robot_controller:/home/petomartin/install/ament_cmake_core:/opt/ros/humble /usr/bin/cmake --install /home/petomartin/homework/ros2_ws/build/homework_package
+[7.520s] -- Install configuration: ""
+[7.521s] -- Execute custom install script
+[7.521s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/ament_index/resource_index/package_run_dependencies/homework_package
+[7.527s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/ament_index/resource_index/parent_prefix_path/homework_package
+[7.535s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/environment/ament_prefix_path.sh
+[7.543s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/environment/ament_prefix_path.dsv
+[7.550s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/environment/path.sh
+[7.556s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/environment/path.dsv
+[7.563s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/local_setup.bash
+[7.569s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/local_setup.sh
+[7.576s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/local_setup.zsh
+[7.583s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/local_setup.dsv
+[7.589s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/package.dsv
+[7.595s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/ament_index/resource_index/packages/homework_package
+[7.602s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/cmake/homework_packageConfig.cmake
+[7.608s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/cmake/homework_packageConfig-version.cmake
+[7.615s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/package.xml
+[7.621s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/lib/homework_package/division_node
+[7.629s] -- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/lib/homework_package/division_node_B
+[7.637s] Invoked command in '/home/petomartin/homework/ros2_ws/build/homework_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/petomartin/ros2_ws/install/my_robot_controller:/home/petomartin/ros2_ws/install/gazesim:/home/petomartin/install/my_robot_controller:/home/petomartin/install/ament_cmake_core:/opt/ros/humble /usr/bin/cmake --install /home/petomartin/homework/ros2_ws/build/homework_package

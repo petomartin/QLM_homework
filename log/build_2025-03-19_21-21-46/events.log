@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.000210] (homework_package) JobQueued: {'identifier': 'homework_package', 'dependencies': OrderedDict()}
+[0.000316] (homework_package) JobStarted: {'identifier': 'homework_package'}
+[0.008726] (homework_package) JobProgress: {'identifier': 'homework_package', 'progress': 'cmake'}
+[0.009389] (homework_package) JobProgress: {'identifier': 'homework_package', 'progress': 'build'}
+[0.010085] (homework_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/petomartin/homework/ros2_ws/build/homework_package', '--', '-j8', '-l8'], 'cwd': '/home/petomartin/homework/ros2_ws/build/homework_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'petomartin'), ('CCACHE_DIR', '/var/tmp/ccache'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/petomartin'), ('OLDPWD', '/home/petomartin'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/petomartin/homework/ros2_ws/install:/home/petomartin/ros2_ws/install:/home/petomartin/ros2_ws/src/gazesim/install:/home/petomartin/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'petomartin'), ('NAME', 'DESKTOP-SM4C3AR'), ('WSL_INTEROP', '/run/WSL/634_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/petomartin/.local/bin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Azure Data Studio/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/petof/OneDrive/Asztali gép/OOP2.0/php-8.2.12:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Users/petof/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/petof/.dotnet/tools:/mnt/c/Users/petof/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/petof/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/petof/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/petof/AppData/Roaming/npm:/snap/bin:/home/petomartin/.local/bin:/home/petomartin/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/petomartin/homework/ros2_ws/install/homework_package:/home/petomartin/ros2_ws/install/my_robot_controller:/home/petomartin/ros2_ws/install/my_gazebo_package:/home/petomartin/ros2_ws/install/gazesim:/home/petomartin/install/openscenario_experimental_catalog:/home/petomartin/install/my_robot_controller:/home/petomartin/install/ament_cmake_version:/home/petomartin/install/ament_cmake_test:/home/petomartin/install/ament_cmake_python:/home/petomartin/install/ament_cmake_export_dependencies:/home/petomartin/install/ament_cmake_libraries:/home/petomartin/install/ament_cmake_include_directories:/home/petomartin/install/ament_cmake_export_targets:/home/petomartin/install/ament_cmake_export_link_flags:/home/petomartin/install/ament_cmake_export_interfaces:/home/petomartin/install/ament_cmake_export_libraries:/home/petomartin/install/ament_cmake_export_include_directories:/home/petomartin/install/ament_cmake_export_definitions:/home/petomartin/install/ament_cmake_core:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', '/usr/lib/ccache/g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/petomartin/homework/ros2_ws/build/homework_package'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/petomartin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/petomartin/ros2_ws/install/gazesim/lib/python3.10/site-packages:/home/petomartin/ros2_ws/src/gazesim/build/gazesim:/home/petomartin/ros2_ws/src/gazesim/install/gazesim/lib/python3.10/site-packages:/home/petomartin/install/my_robot_controller/lib/python3.10/site-packages:/home/petomartin/install/gazesim/lib/python3.10/site-packages:/home/petomartin/install/ament_cmake_test/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/petomartin/homework/ros2_ws/install/homework_package:/home/petomartin/ros2_ws/install/my_gazebo_package:/home/petomartin/install/openscenario_experimental_catalog:/home/petomartin/install/ament_cmake_version:/home/petomartin/install/ament_cmake_test:/home/petomartin/install/ament_cmake_target_dependencies:/home/petomartin/install/ament_cmake_python:/home/petomartin/install/ament_cmake_export_dependencies:/home/petomartin/install/ament_cmake_libraries:/home/petomartin/install/ament_cmake_include_directories:/home/petomartin/install/ament_cmake_export_targets:/home/petomartin/install/ament_cmake_export_link_flags:/home/petomartin/install/ament_cmake_export_interfaces:/home/petomartin/install/ament_cmake_export_libraries:/home/petomartin/install/ament_cmake_export_include_directories:/home/petomartin/install/ament_cmake_export_definitions:/home/petomartin/ros2_ws/install/my_robot_controller:/home/petomartin/ros2_ws/install/gazesim:/home/petomartin/install/my_robot_controller:/home/petomartin/install/ament_cmake_core:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.033061] (homework_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098711] (-) TimerEvent: {}
+[0.153245] (homework_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.159975] (homework_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.198866] (-) TimerEvent: {}
+[0.299297] (-) TimerEvent: {}
+[0.324171] (homework_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.326077] (homework_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.330272] (homework_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.337260] (homework_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.345800] (homework_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.373244] (homework_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.375317] (homework_package) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.388873] (homework_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.399482] (-) TimerEvent: {}
+[0.428863] (homework_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.490672] (homework_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.490882] (homework_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.490929] (homework_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.491155] (homework_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.491654] (homework_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.491715] (homework_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.491864] (homework_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.492879] (homework_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.499683] (-) TimerEvent: {}
+[0.516496] (homework_package) StdoutLine: {'line': b'-- Generating done\n'}
+[0.518136] (homework_package) StdoutLine: {'line': b'-- Build files have been written to: /home/petomartin/homework/ros2_ws/build/homework_package\n'}
+[0.540771] (homework_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target division_node\x1b[0m\n'}
+[0.541089] (homework_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target division_node_B\x1b[0m\n'}
+[0.546751] (homework_package) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/division_node_C.dir/src/division_node_C.cpp.o\x1b[0m\n'}
+[0.556116] (homework_package) StdoutLine: {'line': b'[ 83%] Built target division_node\n'}
+[0.556391] (homework_package) StdoutLine: {'line': b'[ 83%] Built target division_node_B\n'}
+[0.599932] (-) TimerEvent: {}
+[0.700484] (-) TimerEvent: {}
+[0.801103] (-) TimerEvent: {}
+[0.901546] (-) TimerEvent: {}
+[1.002033] (-) TimerEvent: {}
+[1.102461] (-) TimerEvent: {}
+[1.202887] (-) TimerEvent: {}
+[1.303247] (-) TimerEvent: {}
+[1.403793] (-) TimerEvent: {}
+[1.504351] (-) TimerEvent: {}
+[1.604915] (-) TimerEvent: {}
+[1.705499] (-) TimerEvent: {}
+[1.806108] (-) TimerEvent: {}
+[1.906579] (-) TimerEvent: {}
+[2.007178] (-) TimerEvent: {}
+[2.107730] (-) TimerEvent: {}
+[2.208218] (-) TimerEvent: {}
+[2.308660] (-) TimerEvent: {}
+[2.409227] (-) TimerEvent: {}
+[2.509817] (-) TimerEvent: {}
+[2.610482] (-) TimerEvent: {}
+[2.710848] (-) TimerEvent: {}
+[2.811225] (-) TimerEvent: {}
+[2.911734] (-) TimerEvent: {}
+[3.012283] (-) TimerEvent: {}
+[3.112730] (-) TimerEvent: {}
+[3.213263] (-) TimerEvent: {}
+[3.313675] (-) TimerEvent: {}
+[3.414167] (-) TimerEvent: {}
+[3.514606] (-) TimerEvent: {}
+[3.615146] (-) TimerEvent: {}
+[3.715652] (-) TimerEvent: {}
+[3.816223] (-) TimerEvent: {}
+[3.916656] (-) TimerEvent: {}
+[4.017270] (-) TimerEvent: {}
+[4.117749] (-) TimerEvent: {}
+[4.218274] (-) TimerEvent: {}
+[4.318836] (-) TimerEvent: {}
+[4.419228] (-) TimerEvent: {}
+[4.519791] (-) TimerEvent: {}
+[4.620256] (-) TimerEvent: {}
+[4.720763] (-) TimerEvent: {}
+[4.821152] (-) TimerEvent: {}
+[4.921742] (-) TimerEvent: {}
+[5.022245] (-) TimerEvent: {}
+[5.122658] (-) TimerEvent: {}
+[5.223187] (-) TimerEvent: {}
+[5.323612] (-) TimerEvent: {}
+[5.424146] (-) TimerEvent: {}
+[5.524655] (-) TimerEvent: {}
+[5.625098] (-) TimerEvent: {}
+[5.725572] (-) TimerEvent: {}
+[5.825946] (-) TimerEvent: {}
+[5.926545] (-) TimerEvent: {}
+[6.026954] (-) TimerEvent: {}
+[6.127546] (-) TimerEvent: {}
+[6.228111] (-) TimerEvent: {}
+[6.328703] (-) TimerEvent: {}
+[6.429284] (-) TimerEvent: {}
+[6.529829] (-) TimerEvent: {}
+[6.630411] (-) TimerEvent: {}
+[6.730903] (-) TimerEvent: {}
+[6.831573] (-) TimerEvent: {}
+[6.932204] (-) TimerEvent: {}
+[7.032720] (-) TimerEvent: {}
+[7.133132] (-) TimerEvent: {}
+[7.233625] (-) TimerEvent: {}
+[7.334154] (-) TimerEvent: {}
+[7.434680] (-) TimerEvent: {}
+[7.535104] (-) TimerEvent: {}
+[7.635520] (-) TimerEvent: {}
+[7.735970] (-) TimerEvent: {}
+[7.836627] (-) TimerEvent: {}
+[7.937179] (-) TimerEvent: {}
+[8.037823] (-) TimerEvent: {}
+[8.138607] (-) TimerEvent: {}
+[8.239568] (-) TimerEvent: {}
+[8.340184] (-) TimerEvent: {}
+[8.440698] (-) TimerEvent: {}
+[8.541348] (-) TimerEvent: {}
+[8.641937] (-) TimerEvent: {}
+[8.703387] (homework_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable division_node_C\x1b[0m\n'}
+[8.742090] (-) TimerEvent: {}
+[8.842527] (-) TimerEvent: {}
+[8.942926] (-) TimerEvent: {}
+[9.043390] (-) TimerEvent: {}
+[9.143804] (-) TimerEvent: {}
+[9.244209] (-) TimerEvent: {}
+[9.312896] (homework_package) StdoutLine: {'line': b'[100%] Built target division_node_C\n'}
+[9.321053] (homework_package) CommandEnded: {'returncode': 0}
+[9.344463] (-) TimerEvent: {}
+[9.347673] (homework_package) JobProgress: {'identifier': 'homework_package', 'progress': 'install'}
+[9.356440] (homework_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/petomartin/homework/ros2_ws/build/homework_package'], 'cwd': '/home/petomartin/homework/ros2_ws/build/homework_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'petomartin'), ('CCACHE_DIR', '/var/tmp/ccache'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/home/petomartin'), ('OLDPWD', '/home/petomartin'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/petomartin/homework/ros2_ws/install:/home/petomartin/ros2_ws/install:/home/petomartin/ros2_ws/src/gazesim/install:/home/petomartin/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'petomartin'), ('NAME', 'DESKTOP-SM4C3AR'), ('WSL_INTEROP', '/run/WSL/634_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/petomartin/.local/bin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Azure Data Studio/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/petof/OneDrive/Asztali gép/OOP2.0/php-8.2.12:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Users/petof/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/petof/.dotnet/tools:/mnt/c/Users/petof/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/petof/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/petof/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/petof/AppData/Roaming/npm:/snap/bin:/home/petomartin/.local/bin:/home/petomartin/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/petomartin/homework/ros2_ws/install/homework_package:/home/petomartin/ros2_ws/install/my_robot_controller:/home/petomartin/ros2_ws/install/my_gazebo_package:/home/petomartin/ros2_ws/install/gazesim:/home/petomartin/install/openscenario_experimental_catalog:/home/petomartin/install/my_robot_controller:/home/petomartin/install/ament_cmake_version:/home/petomartin/install/ament_cmake_test:/home/petomartin/install/ament_cmake_python:/home/petomartin/install/ament_cmake_export_dependencies:/home/petomartin/install/ament_cmake_libraries:/home/petomartin/install/ament_cmake_include_directories:/home/petomartin/install/ament_cmake_export_targets:/home/petomartin/install/ament_cmake_export_link_flags:/home/petomartin/install/ament_cmake_export_interfaces:/home/petomartin/install/ament_cmake_export_libraries:/home/petomartin/install/ament_cmake_export_include_directories:/home/petomartin/install/ament_cmake_export_definitions:/home/petomartin/install/ament_cmake_core:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', '/usr/lib/ccache/g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/petomartin/homework/ros2_ws/build/homework_package'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/petomartin/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/petomartin/ros2_ws/install/gazesim/lib/python3.10/site-packages:/home/petomartin/ros2_ws/src/gazesim/build/gazesim:/home/petomartin/ros2_ws/src/gazesim/install/gazesim/lib/python3.10/site-packages:/home/petomartin/install/my_robot_controller/lib/python3.10/site-packages:/home/petomartin/install/gazesim/lib/python3.10/site-packages:/home/petomartin/install/ament_cmake_test/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/petomartin/homework/ros2_ws/install/homework_package:/home/petomartin/ros2_ws/install/my_gazebo_package:/home/petomartin/install/openscenario_experimental_catalog:/home/petomartin/install/ament_cmake_version:/home/petomartin/install/ament_cmake_test:/home/petomartin/install/ament_cmake_target_dependencies:/home/petomartin/install/ament_cmake_python:/home/petomartin/install/ament_cmake_export_dependencies:/home/petomartin/install/ament_cmake_libraries:/home/petomartin/install/ament_cmake_include_directories:/home/petomartin/install/ament_cmake_export_targets:/home/petomartin/install/ament_cmake_export_link_flags:/home/petomartin/install/ament_cmake_export_interfaces:/home/petomartin/install/ament_cmake_export_libraries:/home/petomartin/install/ament_cmake_export_include_directories:/home/petomartin/install/ament_cmake_export_definitions:/home/petomartin/ros2_ws/install/my_robot_controller:/home/petomartin/ros2_ws/install/gazesim:/home/petomartin/install/my_robot_controller:/home/petomartin/install/ament_cmake_core:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[9.362332] (homework_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.363843] (homework_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.364141] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/lib/homework_package/division_node\n'}
+[9.364280] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/lib/homework_package/division_node_B\n'}
+[9.364504] (homework_package) StdoutLine: {'line': b'-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/lib/homework_package/division_node_C\n'}
+[9.371435] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/ament_index/resource_index/package_run_dependencies/homework_package\n'}
+[9.371739] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/ament_index/resource_index/parent_prefix_path/homework_package\n'}
+[9.372230] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/environment/ament_prefix_path.sh\n'}
+[9.372819] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/environment/ament_prefix_path.dsv\n'}
+[9.373441] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/environment/path.sh\n'}
+[9.373999] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/environment/path.dsv\n'}
+[9.374094] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/local_setup.bash\n'}
+[9.374238] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/local_setup.sh\n'}
+[9.374459] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/local_setup.zsh\n'}
+[9.374688] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/local_setup.dsv\n'}
+[9.374779] (homework_package) StdoutLine: {'line': b'-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/package.dsv\n'}
+[9.381976] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/ament_index/resource_index/packages/homework_package\n'}
+[9.382253] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/cmake/homework_packageConfig.cmake\n'}
+[9.382505] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/cmake/homework_packageConfig-version.cmake\n'}
+[9.382569] (homework_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/package.xml\n'}
+[9.384473] (homework_package) CommandEnded: {'returncode': 0}
+[9.422764] (homework_package) JobEnded: {'identifier': 'homework_package', 'rc': 0}
+[9.423234] (-) EventReactorShutdown: {}

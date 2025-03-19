@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target division_node_B[0m
+[ 50%] Built target division_node
+[ 75%] [32mBuilding CXX object CMakeFiles/division_node_B.dir/src/division_node_B.cpp.o[0m
+[100%] [32m[1mLinking CXX executable division_node_B[0m
+[100%] Built target division_node_B
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/ament_index/resource_index/package_run_dependencies/homework_package
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/ament_index/resource_index/parent_prefix_path/homework_package
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/environment/ament_prefix_path.sh
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/environment/ament_prefix_path.dsv
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/environment/path.sh
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/environment/path.dsv
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/local_setup.bash
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/local_setup.sh
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/local_setup.zsh
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/local_setup.dsv
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/package.dsv
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/ament_index/resource_index/packages/homework_package
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/cmake/homework_packageConfig.cmake
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/cmake/homework_packageConfig-version.cmake
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/share/homework_package/package.xml
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/lib/homework_package/division_node
+-- Symlinking: /home/petomartin/homework/ros2_ws/install/homework_package/lib/homework_package/division_node_B
