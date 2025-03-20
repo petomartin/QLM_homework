@@ -21,6 +21,8 @@ This project implements three ROS2 nodes:
 ### division_node: 
 Receives individual numbers (numerator and denominator) one at a time and performs division. The division_node subscribes to a single topic, /input_numbers, to receive both the numerator and denominator values. These values are provided sequentially, and the node performs division when both values have been received.
 
+![1. Ábra](src/homework_package/assets/abra1.png)
+
 Starting the Node:
 
     ros2 run homework_package division_node
@@ -35,6 +37,8 @@ Viewing the Result:
 ### division_node_B: 
 The division_node_B subscribes to the /input_numbersB topic, where it listens for two numbers (numerator and denominator) 
 packaged into a Float64MultiArray message. This node then performs division once both numbers are received, and publishes the result to the /division_resultB topic.
+
+![2. Ábra](src/homework_package/assets/abra2.png)
 
 Starting the Node:
 
@@ -51,6 +55,8 @@ Viewing the Result:
 ### division_node_C:
 The division_node_C subscribes to two separate topics: one for the numerator (/input_numbers/numerator) and one for the denominator (/input_numbers/denominator). 
 The node performs division when both the numerator and denominator are received, and it publishes the result to the /division_resultC topic.
+
+![3. Ábra](src/homework_package/assets/abra3.png)
 
 Starting the Node:
 
