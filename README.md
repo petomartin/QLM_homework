@@ -8,10 +8,9 @@ Ensure you have ROS 2 installed and properly set up.
 
 Create a workspace and build the project:
 
-	mkdir -p ~/ros2_ws/src
-	cd ~/ros2_ws/src
-	git clone https://github.com/petomartin/QLM_homework.git
+	mkdir -p ~/ros2_ws
 	cd ~/ros2_ws
+	git clone https://github.com/petomartin/QLM_homework.git 
 	colcon build --symlink-install
 
 This project consists of three different ROS2 nodes that perform division operations in various formats. These nodes subscribe to specific topics, receive two numbers (numerator and denominator), and publish the result of the division. The nodes handle potential errors, such as division by zero.
