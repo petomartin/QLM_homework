@@ -1,8 +1,0 @@
-[31mCMake Error at /home/petomartin/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
-  ament_cmake_symlink_install_targets() 'division_node_C' is not a target
-Call Stack (most recent call first):
-  /home/petomartin/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
-  CMakeLists.txt:24 (install)
-
-[0m
-gmake: *** [Makefile:308: cmake_check_build_system] Error 1
