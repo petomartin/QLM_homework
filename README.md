@@ -10,7 +10,7 @@ Create a workspace and build the project:
 
 	mkdir -p ~/ros2_ws/src
 	cd ~/ros2_ws/src
-	git clone <repository_url>
+	git clone https://github.com/petomartin/QLM_homework.git
 	cd ~/ros2_ws
 	colcon build --symlink-install
 
